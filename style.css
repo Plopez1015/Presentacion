@@ -1,0 +1,263 @@
+*{
+    height:100;
+    width:100;
+    box-sizing: border-box;
+    align-content: center;
+}
+.fondo{
+    background: rgb(0,1,5);
+    background: linear-gradient(90deg, rgba(0,1,5,1) 0%, rgba(1,13,120,1) 50%, rgba(111,0,255,1) 100%);
+    margin: 115px 90px 115px 90px;
+    
+}
+.caja{
+    background: rgb(137,149,167);
+    background: linear-gradient(90deg, rgba(137,149,167,0.2595413165266106) 35%, rgba(137,149,167,0.26) 35%);
+    box-shadow: 15px 17px 25px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 15px 17px 25px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 17px 25px 0px rgba(0,0,0,0.75);
+}
+.menu{
+    width:100%;
+    display: flex;
+}
+.logo{
+    width:30%;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+.indice{
+    width:70%;
+    text-align: center;
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+}
+.caja2{
+    width: 100%;
+    display: flex;
+    align-content: center;
+}
+.contenido{
+    display: flex;
+    width: 50%;
+    text-align: center;
+}
+.imagen{
+    width: 50%;
+    height: 60vh;
+    background-image: url(image-pc..png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.texto{
+    margin-right: 100px;
+    color: white;
+}
+.texlogo{
+    color:skyblue;
+}
+.contenido{
+    padding: 20px;
+    text-align: center;
+}
+.textcontenido{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 20px 80px 20px 0px;
+}
+a:link{
+    text-decoration: none;
+}
+
+
+
+.subcaja2{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    padding: 0px 100px 0px 100px;
+
+}
+.card1{
+    width: 50%;
+    display: flex;
+    padding-right: 40px;
+    align-content: center;
+}
+
+.card2{
+    width: 50%;
+    display: flex;
+    padding-left: 40px;
+    align-content: center;
+}
+
+.foto1{
+    height: 60vh;
+    background-image: url(foto1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    padding-top: 10px;
+}
+.info1{
+    width: 60%;
+}
+.foto2{
+    height: 60vh;
+    background-image: url(foto2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    padding-top: 10px;
+}
+.info2{
+    width: 60%;
+}
+
+
+.slider{
+    width: 100%;
+    height: 60vh;
+    overflow:hidden;
+    align-content: center;
+}
+.slider ul{
+    display: flex;
+    animation:cambio 8s infinite
+    alternate ease;
+    width: 200%;
+    padding: 0px;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    height: 80vh;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    25%{margin-left: 0;}
+
+    50%{margin-left: -100%;}
+    100%{margin-left: -100%;}
+}
+img{
+    opacity: 0.8;
+}
+.info1{
+    margin: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
+    padding-top: 30px;
+    background: rgb(2,0,36);
+    background: linear-gradient(128deg, rgba(2,0,36,1) 7%, rgba(10,30,159,1) 79%);
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+.info2{
+    margin: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
+    padding-top: 30px;
+    background: rgb(2,0,36);
+    background: linear-gradient(128deg, rgba(2,0,36,1) 7%, rgba(10,30,159,1) 79%);
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+h2{
+    word-spacing: 14px;
+}
+.boxclientes{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+}
+.boxclientes img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+.boxclientes img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.boxcontactos{
+    background: rgb(2,0,36);
+    background: linear-gradient(128deg, rgba(2,0,36,1) 7%, rgba(50,44,56,0.7315301120448179) 63%);
+    height: 60vh;
+}
+.icon1{
+    background-image: url(instagram.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    height: 100px;
+    margin-bottom: 6px;
+}
+.icon2{
+    background-image: url(facebook.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    height: 100px;
+    margin-bottom: 6px;
+}
+.icon3{
+    background-image: url(tik-tok.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    height: 100px;
+    margin-bottom: 6px;
+}
+.icon4{
+    background-image: url(whatsapp.png) ;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    height: 100px;
+    margin-bottom: 6px;
+}
+.subcontactos{
+    width: 100%;
+    display: flex;
+}
+.cajaicono{
+    width: 20%; 
+    height: 60vh;
+}
+.cajaicono2{
+    width: 50%;
+    height: 60vh;
+}
+.cajaicono3{
+    width: 30%;
+    height: 60vh;
+}
+.imagencontacto{
+    background-image: url(llamando.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 60vh;
+}
+.tituloicono{
+    color: white;
+    text-align: center;
+}
+h2{
+    color: cadetblue;
+}
+.subtituloicono{
+    color: white;
+    margin-bottom: 20px;
+}
